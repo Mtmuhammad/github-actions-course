@@ -11,3 +11,7 @@
   * The **individual, sequential tasks** executed inside a job.
   * They run one after the other on the exact same runner, meaning they can share files and settings.
   * A step can run a raw shell command (`run`) or use a reusable plugin from the community (`uses`).
+* **Workflow Runners**
+  * Virtual servers that execute jobs from workflows(standard or self hosted).
+  * Standard through windows, ubuntu, and mac. Managed service.
+  * Self hosted run workflows on any infrastructure
